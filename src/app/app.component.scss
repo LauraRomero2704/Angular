@@ -1,0 +1,24 @@
+
+.box 
+{
+    height: 150px;
+    width: 150px;
+    overflow: auto;
+    background: red;
+}
+
+.products--grid
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    div {
+        img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        h2, p {
+            margin: 0;
+        }
+    }
+}

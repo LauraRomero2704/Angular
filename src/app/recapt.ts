@@ -16,8 +16,7 @@ class Person {
 
     // CONSTRUCTOR
     // Recibe e Inicializa los Parametros
-    constructor(public age: number, public lastName: string) {
-    }
+    constructor(public age: number, public lastName: string) {}
 }
 
 const laura = new Person(18, 'Valentina');

@@ -15,6 +15,8 @@ export class AppComponent {
   age = 18;
   img = 'https://www.w3schools.com/howto/img_avatar.png';
 
+  // CLASES Y ESTILOS
+  widthImg = 10;
 
   // PROPERTY BINDING
   btnDisabled = true;
